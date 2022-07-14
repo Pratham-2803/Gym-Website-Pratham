@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS reset */
+        /* *{
+            box-sizing: border-box;
+        } */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('image/bg3.jpg');
+            background-size: 1600px 1000px;
+            color: white;
+            font-family: serif;
+
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 20px;
+
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%);
+            margin-left: 20px
+            ;
+        }
+
+        .left div {
+            line-height: 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 43%;
+            margin: 30px auto;
+
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 10px;
+            top: 40px;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: auto;
+            background-color: black;
+            color: white;
+            padding: a;
+            border: 2px solid grey;
+            border-radius: 12px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: serif;
+
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 125px 22px;
+            padding: 38px 75px;
+            width: 40%;
+            border-radius: 15px;
+        }
+
+        .container h1 {
+            text-align: center;
+
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 276px;
+            padding: 15px;
+            border: 2px solid black;
+            margin: 6px auto;
+            font-size: 24px;
+            border-radius: 10px;
+            font-family: serif;
+        }
+
+        .container button {
+            display: block;
+            width: 40%;
+            margin: auto;
+            padding: 16px;
+
+        }
+
+        
+
+        /* img{
+            height: 50%;
+            width: 50%;
+        } */
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/gym.jpg" alt="">
+            <div>
+                Pratham Fitness
+            </div>
+
+        </div>
+        <!-- mid box for logo -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="">About Us</a></li>
+                <li><a href="#" class="">Fitness Calculator</a></li>
+                <li><a href="#" class="">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for logo -->
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Ahmedabad Now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Mobile number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+    </div>
+    <div>
+
+        <!-- <img src="image/bg3.jpg" alt=""> -->
+    </div>
+
+</body>
+
+</html>
